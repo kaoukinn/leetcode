@@ -11,7 +11,7 @@ class Solution:
             newlist.append(nums[i+n])
         return newlist
 
-程式碼解釋:
+# 程式碼解釋:
 # 先建立一個空列表，用迴圈把0-n的數字都抓取出來，然後把nums中的i值加進到空列表，再用nums中的i+n值加進到空列表中
 # ex.n代表的是每個循環的數量所以把i+n就會是第二個循環的第一位數字
 
